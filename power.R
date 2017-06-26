@@ -1,5 +1,5 @@
 rm(list=ls())
-library(Hmisc); library(tidyverse); library(lme4)
+library(Hmisc); library(MASS); library(tidyverse); library(lme4)
 
 #power function
 f_power <- function(a_pr, b_OR, sd_a=1, sd_b=1, covar_uaub=0, t_n, samp_n, reps_n, seed)  {
